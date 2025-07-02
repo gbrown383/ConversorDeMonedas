@@ -35,7 +35,7 @@ public class MenuConverter {
                 case 6 -> converter.convertir("COP", "USD");
                 case 7 -> converter.mostrarMonedasDisponibles();
                 case 8 -> System.out.println("Gracias por usar el conversor 😊");
-                default -> System.out.println("❌ Opción inválida.");
+                default -> System.out.println(" Opción inválida.");
             }
 
         } while (opcion != 8);
